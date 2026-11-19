@@ -43,5 +43,15 @@ Cisco Packet Tracer
 
 ## Author
 Muhammad Saqib
+## Network Topology
+![Network Topology](Network%20Topology.png)
 
+## VLAN Configuration
+![VLAN Configuration](Vlans%20Configurations%20.png)
+
+## Router Configuration
+![Router Configuration](router%20configurations.png)
+
+## Connectivity Testing
+![Ping Results](ping%20result.png)
 **Note:** This is a practical networking project. Configurations and testing evidence will be updated as implementation progresses.
