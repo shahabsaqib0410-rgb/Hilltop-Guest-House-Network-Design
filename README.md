@@ -9,11 +9,16 @@ The network is designed to separate departments through VLANs, implement efficie
 
 Three departments are included:
 
-| VLAN ID | Department | Network |
-|---|---|---|
-| 10 | Guest | 192.168.100.0/26 |
-| 20 | Staff | 192.168.100.64/27 |
-| 30 | Management | 192.168.100.96/28 |
+## Network Requirements
+
+Three departments are included, each assigned a separate VLAN and subnet using VLSM.
+
+| VLAN ID | Department | Network Address | Subnet Mask | Default Gateway | Usable IP Range | Broadcast Address |
+|---|---|---|---|---|---|---|
+| 10 | Guest | 192.168.100.0/26 | 255.255.255.192 | 192.168.100.1 | 192.168.100.2 – 192.168.100.62 | 192.168.100.63 |
+| 20 | Staff | 192.168.100.64/27 | 255.255.255.224 | 192.168.100.65 | 192.168.100.66 – 192.168.100.94 | 192.168.100.95 |
+| 30 | Management | 192.168.100.96/28 | 255.255.255.240 | 192.168.100.97 | 192.168.100.98 – 192.168.100.110 | 192.168.100.111 |
+
 
 ## Technologies and Concepts
 - Cisco Packet Tracer
